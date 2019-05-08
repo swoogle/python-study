@@ -6,7 +6,9 @@ import sys
 import os.path as op
 from collections import Counter
 
-# wordcount 给定一篇英文文档（input.txt），统计其中单词词频，将结果输入到文件中（output.txt)
+"""
+wordcount 给定一篇英文文档（input.txt），统计其中单词词频，将结果输入到文件中（output.txt)
+"""
 
 with open(op.join(sys.path[0], 'input.txt')) as fi:
 	words = fi.read().lower()
