@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 #! _*_ coding: utf-8 _*_
 
+from typing import Optional
 from fastapi import FastAPI
 
 app = FastAPI()
